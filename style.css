@@ -1,0 +1,58 @@
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+/*          DISPLAY FLEX + JUSTIFY CONTENT CENTER       */
+h1, h2, h3, p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*              FONT SIZE & WEIGHT           */
+input, select[id=planet], button, label {
+    font-size: 20px;
+}  
+label {
+    font-weight: 300;
+}
+
+
+form {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 50px;
+}
+
+label, select {
+    margin: 10px 0 20px 0;
+}
+
+input, select[id=planet] {
+    padding: 5px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: 2px solid #6d6d6d;
+}
+
+
+
+button {
+padding: 10px 20px;
+margin: 30px;
+background-color: #39635e;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#results {
+font-size: 20px;
+margin-top: 50px;
+}
+
+#planet {
+text-transform: capitalize;
+}
